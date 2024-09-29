@@ -111,5 +111,3 @@ elif ejercicio == "Calculadora flexible":
     num2 = st.number_input("Ingresa el segundo número", value=0)
     operacion = st.selectbox("Operación", ["suma", "resta", "multiplicación", "división"])
     st.write("Resultado:", calculadora_flexible(num1, num2, operacion))
-
-st.write("Despliega tu aplicación en Streamlit Cloud para compartirla con otros.")
